@@ -1,0 +1,58 @@
+.image .iconbox {
+    background-color: blue;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.image:hover .iconbox {
+    opacity: 1;
+    top: 50%;
+}
+
+.image {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.images {
+    overflow: hidden;
+    position: relative;
+}
+
+.images img {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.image:hover .images img {
+    transform: scale(1.1);
+}
+
+.iconbox {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    color: white;
+    font-size: 24px;
+    flex: none;
+    border-radius: 50%;
+}
+
+.line {
+    width: 60px;
+    height: 2px;
+    background-color: blue;
+    margin: 16px auto;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
